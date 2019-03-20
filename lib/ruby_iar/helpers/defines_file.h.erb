@@ -1,0 +1,5 @@
+<%= RubyIAR::Helpers::DefinesFile::TemplateHelpers.header %>
+
+<% _defines_and_includes_.each do |def_or_inc| %>
+  <%= RubyIAR::Helpers::DefinesFile::TemplateHelpers.generate(def_or_inc) %>
+<% end %>
